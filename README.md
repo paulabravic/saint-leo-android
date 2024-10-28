@@ -33,5 +33,5 @@
 </p>
 
 <h2>Diseño (wireframes o esquemas de página)</h2>
-<img src="Documentacion/wireframe-app.png" alt="wireframe-app" />
+<img src="./Documentacion/wireframe-app.png" alt="wireframe-app" />
 

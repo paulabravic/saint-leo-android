@@ -4,7 +4,7 @@
 
 <h2>Descripción del proyecto</h2>
 <p>
-    La aplicación permitirá a los usuarios obtener sugerencias aleatorias de películas o series cuando no sepan qué ver. Se basará en una API de películas para ofrecer títulos populares y aleatorios, simulando una experiencia divertida y visualmente atractiva con un botón estilo carrusel que selecciona la película.
+    La aplicación permitirá a los usuarios obtener sugerencias aleatorias de películas o series cuando no sepan qué ver. Se basará en una API de películas para ofrecer títulos populares y aleatorios, simulando una experiencia entretenida y visualmente atractiva con un botón que genera tres opciones de películas o series al azar.
 </p>
 
 <h2>Exposición del problema</h2>
@@ -15,7 +15,7 @@
 <h2>Plataforma</h2>
 <ul>
     <li><strong>Android</strong>, usando <strong>Kotlin</strong> en <strong>Android Studio</strong>.</li>
-    <li><strong>API:</strong> TMDB</li>
+    <li><strong>API:</strong> OMDB</li>
 </ul>
 
 <h2>Interfaz de usuario e interfaz de administrador</h2>
@@ -23,13 +23,29 @@
 
 <h2>Funcionalidad</h2>
 <p>
-    Al presionar un botón, las imágenes de diferentes películas comienzan a deslizarse horizontalmente, simulando un efecto de tómbola que genera emoción. Este carrusel se mueve automáticamente durante un tiempo predefinido, creando una experiencia de selección aleatoria.
+    Generación aleatoria de películas: 
 </p>
 <p>
-    Cuando se detiene, la película que aparece en el centro se puede seleccionar. Al tocar la imagen, los usuarios son dirigidos a una pantalla detallada que muestra información sobre la película, como la sinopsis, el elenco y las calificaciones.
+Los usuarios pueden presionar un botón que les ofrece tres películas o series seleccionadas aleatoriamente. Cada una de estas opciones aparece en forma de tarjetas (cards) con información básica, como el título y una breve descripción.
+</p>
+
+<p>
+    Selección de detalles de la película: 
 </p>
 <p>
-    Además, los usuarios tienen la opción de agregar sus películas favoritas a una lista personal, lo que les permite acceder fácilmente a sus títulos preferidos más tarde. También hay un botón para reiniciar el carrusel, lo que permite seguir explorando y descubriendo nuevas películas de manera continua.
+Los usuarios pueden hacer clic en cualquiera de las tarjetas para ser dirigidos a una nueva pantalla donde se muestran detalles más completos de la película o serie seleccionada, tales como la sinopsis, el elenco, las calificaciones, entre otros.
+</p>
+<p>
+   Agregar a favoritos:
+</p>
+<p>
+Cada tarjeta incluirá un botón que permitirá agregar la película o serie a una lista de favoritos. Los usuarios podrán acceder a esta lista en cualquier momento para revisar sus títulos preferidos.
+</p>
+<p>
+  Interacción continua:
+</p>
+<p>
+Después de revisar las tres opciones, los usuarios podrán generar tres nuevas sugerencias en cualquier momento, presionando de nuevo el botón.
 </p>
 
 <h2>Diseño (wireframes o esquemas de página)</h2>

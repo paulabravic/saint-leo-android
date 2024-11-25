@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Next Watch App</string>
+    <string name="list_fragment_label">Películas populares</string>
+    <string name="error_text">Error de conexión. Intente nuevamente!</string>
+    <string name="search_text">Luz, Cámara, Acción!</string>
+    <string name="separator">|</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="duration">Duración</string>
+    <string name="year">Año</string>
+    <string name="language">Idioma</string>
+    <string name="rating">Rating</string>
+    <string name="plot">Sinopsis</string>
+    <string name="director">Director</string>
+    <string name="writer">Escritor</string>
+    <string name="actors">Actores</string>
+    <string name="country">País</string>
+    <string name="box_office">Recaudación</string>
+    <string name="favourites_menu_title">Favorito seleccionado</string>
+    <string name="results_could_not_be_loaded">No fue posible cargar los resultados</string>
+    <string name="retry_btn">Reintentar</string>
+    <string name="no_result">No encontramos peliculas</string>
+    <string name="empty_text">Te mostraremos nuestras mejores recomendaciones de peliculas</string>
+</resources>

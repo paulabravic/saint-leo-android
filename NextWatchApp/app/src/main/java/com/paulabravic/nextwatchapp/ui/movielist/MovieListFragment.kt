@@ -6,16 +6,20 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.Navigation
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.paulabravic.nextwatchapp.R
 import com.paulabravic.nextwatchapp.data.model.Movie
 import com.paulabravic.nextwatchapp.databinding.FragmentMovieListBinding
+import com.paulabravic.nextwatchapp.util.navigate
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -134,13 +138,20 @@ class MovieListFragment : Fragment(), ItemClickListener {
     }
 
     private fun subscribeToObservers() {
+        viewModel.roomMovieList.observe(viewLifecycleOwner) {
+            movieListAdapter.updateRoom(it)
+        }
     }
 
     override fun onButtonClickDelete(item: Movie) {
+        viewModel.deleteMovie(item)
+        viewModel.deleteMovieDetails(item)
     }
 
     override fun onButtonClickInsert(item: Movie): Boolean {
         return if (isInternetAvailable(requireContext())) {
+            viewModel.insertMovie(item)
+            viewModel.insertMovieDetails(item)
             true
         } else {
             false
@@ -151,6 +162,11 @@ class MovieListFragment : Fragment(), ItemClickListener {
         val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val networkInfo = connectivityManager.activeNetworkInfo
         return networkInfo != null && networkInfo.isConnected
+    }
+
+
+    fun fabOnClick(view: View) {
+        Navigation.navigate(view, R.id.action_navigation_movie_list_to_favouriteMoviesFragment)
     }
 
 }

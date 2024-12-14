@@ -2,7 +2,7 @@
 <p align="center"><strong>Alumna:</strong> Paulina Brajovic</p>
 <p align="center"><strong>Curso:</strong> COM 437</p>
 <p align="center"><strong>Storyboard:</strong> <a href="https://miro.com/app/board/uXjVLAtvtQU=/" target="_blank">https://miro.com/app/board/uXjVLAtvtQU=/</a></p>
-
+<p align="center"><strong>Presentación Canva:</strong> <a href="https://www.canva.com/design/DAGZOTUyY4Q/mfTbfCdIQKt8Vt_1yizmTg/edit">https://www.canva.com/design/DAGZOTUyY4Q/mfTbfCdIQKt8Vt_1yizmTg/edit</a></p>
 
 <h2>Descripción del proyecto</h2>
 <p>

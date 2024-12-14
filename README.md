@@ -1,7 +1,7 @@
 <h1 align="center">Borrador de Proyecto de la Aplicación Android</h1>
 <p align="center"><strong>Alumna:</strong> Paulina Brajovic</p>
 <p align="center"><strong>Curso:</strong> COM 437</p>
-<p align="center"><strong>Storyboard:</strong> <a href="https://miro.com/app/board/uXjVLAtvtQU=/">https://miro.com/app/board/uXjVLAtvtQU=/</a></p>
+<p align="center"><strong>Storyboard:</strong> <a href="https://miro.com/app/board/uXjVLAtvtQU=/" target="_blank">https://miro.com/app/board/uXjVLAtvtQU=/</a></p>
 
 
 <h2>Descripción del proyecto</h2>

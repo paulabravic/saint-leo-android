@@ -1,6 +1,8 @@
 <h1 align="center">Borrador de Proyecto de la Aplicación Android</h1>
 <p align="center"><strong>Alumna:</strong> Paulina Brajovic</p>
 <p align="center"><strong>Curso:</strong> COM 437</p>
+<p align="center"><strong>Storyboard:</strong> <a href="https://miro.com/app/board/uXjVLAtvtQU=/">https://miro.com/app/board/uXjVLAtvtQU=/</a></p>
+
 
 <h2>Descripción del proyecto</h2>
 <p>
@@ -48,6 +50,6 @@ Cada tarjeta incluirá un botón que permitirá agregar la película o serie a u
 Después de revisar las tres opciones, los usuarios podrán generar tres nuevas sugerencias en cualquier momento, presionando de nuevo el botón.
 </p>
 
-<h2>Diseño (wireframes o esquemas de página)</h2>
+<h2>Diseño (Wireframes o esquemas de página)</h2>
 <img src="./Documentacion/wireframe-app.png" alt="wireframe-app" />
 

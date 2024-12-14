@@ -10,7 +10,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.movieapp"
+        applicationId "com.paulabravic.nextwatchapp"
         minSdk 21
         targetSdk 33
         versionCode 1
